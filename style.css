@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.sButton {
+  width:150px;
+  height:150px;
+   background-size: cover;
+   background-color: blue;
+   color: burlywood;
+   
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+ }
+
+ .aButton{
+   width: 240px;
+   height: 75px;
+   background-image: url("Images/Animals.jpg");
+ }
+ .input{
+   width: 400;
+   border : 3px solid black ;
+   height: 70;
+   font-size: 30px;
+   
+    } 
+    .pImage{
+      width: 40%;
+      height: 150px;
+    }
+    .fButton{
+      background-image: url("Images/Food.jpg");
+      width: 125px;
+      height: 50px;
+    }
+    .cButton{
+      background-image: url("Images/Country.jpg");
+      width: 170px;
+      height: 50px;
+    }
